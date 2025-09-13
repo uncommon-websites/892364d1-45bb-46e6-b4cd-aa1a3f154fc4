@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	centered={true}
+	title="Connect builders directly with curated angel investors"
+	subtitle="Execution transforms startup funding access through exclusive operator networks, helping technical founders secure investment while preserving equity control."
+	customers={[
+		{
+			name: "Michael Chen",
+			position: "Angel Investor at Sequoia Capital",
+			imageSrc: "/generated/image-a-professional-male-angel-investor-in-bu.webp"
+		},
+		{
+			name: "Sarah Martinez",
+			position: "Technical Founder, AI Startup",
+			imageSrc: "/generated/image-a-female-technical-founder-wearing-casua.webp"
+		},
+		{
+			name: "David Rodriguez",
+			position: "Startup Founder & Builder",
+			imageSrc: "/generated/image-a-male-startup-founder-in-a-modern-offic.webp"
+		},
+		{
+			name: "Elena Thompson",
+			position: "Angel Investor & Former VP",
+			imageSrc: "/generated/image-a-professional-female-angel-investor-in-.webp"
+		},
+		{
+			name: "James Wilson",
+			position: "Technical Founder & CTO",
+			imageSrc: "/generated/image-a-male-technical-founder-in-casual-profe.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/a16z.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/ycombinator.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
