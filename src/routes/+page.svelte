@@ -52,62 +52,88 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="We eliminate the friction between technical founders and angel investors through exclusive operator networks that understand both sides of the funding equation. Angel investors gain access to 50+ high-quality deals monthly from vetted technical founders, while builders preserve equity control through our innovative scout check system. Our platform transforms the $330B private equity market by connecting the right people at the right time, reducing administrative overhead by 80% so investors can focus on what matters most—building relationships with exceptional founders."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Alexandra Chen",
+			position: "Partner",
+			company: "Northgate Ventures",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Execution reduced my deal sourcing time from 15 hours to 3 hours per week. Their curated operator network connects me directly with technical founders building solutions I actually want to invest in. I've closed 4 deals this quarter that I never would have found otherwise.",
+			image: "/generated/image-a-professional-female-angel-investor-in-.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Rodriguez",
+			position: "Angel Investor",
+			company: "TechStars Alumni Fund",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The platform eliminated 80% of my administrative overhead in evaluating startups. Instead of spending hours on due diligence prep, I can focus on relationship building with founders. My investment decision time dropped from 6 weeks to 2 weeks while maintaining quality.",
+			image: "/generated/image-a-confident-male-angel-investor-at-an-in.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Priya Patel",
+			position: "Managing Director",
+			company: "Scale Ventures",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Execution's scout network gave me early access to AI startups before they hit traditional channels. The risk assessment tools helped me avoid 3 potential bad investments this year, saving our fund over $500K. The ROI on quality deal flow is unprecedented.",
+			image: "/generated/image-a-diverse-group-of-professional-angel-in.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why angel investors choose Execution"
+	subtitle="Transform your deal sourcing from administrative burden into strategic advantage"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Curated operator networks",
+			description: "Access exclusive deal flow from validated technical founders building AI startups through our insider operator connections.",
+			imageSrc: "/generated/image-a-diverse-group-of-technical-founders-mi.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Scout checks that preserve equity",
+			description: "Deploy capital efficiently with scout investments that protect founder control while securing your position in high-potential deals.",
+			imageSrc: "/generated/image-a-professional-handshake-taking-place-be.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "50+ monthly deal opportunities",
+			description: "Source quality deals consistently from our network of builders actively raising capital in AI, developer tools, and infrastructure.",
+			imageSrc: "/generated/image-a-group-of-angel-investors-sitting-aroun.webp"
+		},
+		{
+			title: "Direct founder connections",
+			description: "Skip the intermediaries and build relationships directly with technical founders who understand your investment thesis."
+		},
+		{
+			title: "Pre-validated startups",
+			description: "Every deal is sourced through operator networks, ensuring founders have real traction and technical credibility before reaching you."
+		},
+		{
+			title: "Administrative efficiency",
+			description: "Focus 80% of your time on relationship building instead of deal administration with our streamlined investment workflow."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop spending 80% of your time on deal administration"
+	subtitle="Start investing in relationships"
+	description="Join 500+ angel investors who've transformed their deal sourcing from administrative burden into strategic advantage. Access 50+ curated deals monthly from validated technical founders through our exclusive operator networks. No more endless email chains, pitch deck reviews, or calendar coordination—just quality deals that match your investment thesis."
+	imageSrc="/generated/image-a-confident-angel-investor-sitting-at-a-.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Get early access",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Schedule demo",
+			variant: "secondary"
+		}
+	]}
+/>

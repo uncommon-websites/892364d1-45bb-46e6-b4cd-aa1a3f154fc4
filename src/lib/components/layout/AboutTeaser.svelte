@@ -1,6 +1,6 @@
 <!--
 @component AboutTeaser
-A minimalist teaser for the about page.
+An engaging founder story teaser that builds personal connection and company credibility.
 -->
 <script lang="ts">
 	// Types
@@ -21,34 +21,49 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Bob Deforce",
+		role: "Co-Founder",
+		image: "/generated/image-a-professional-startup-founder-sitting-a.webp"
 	};
 </script>
 
 <section bind:this={sectionRef} {...props}>
 	<div class="section-px section-py container mx-auto">
-		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
+		<div class="relative mx-auto grid max-w-4xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"We watched talented founders spend 80% of their time fundraising just to raise tiny checks. So we built a way to flip the model—where capital chases execution, not the other way around."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
-			<div class="grid items-center gap-8 dark:border-gray-800">
-				<div class="flex items-center justify-start gap-4">
+			<div class="grid items-center gap-8">
+				<div class="flex items-center justify-center gap-6">
 					<img
 						src={teamMember.image}
 						alt={teamMember.name}
-						class="size-12 rounded-full object-cover"
+						class="size-16 rounded-full object-cover ring-2 ring-gray-100"
 					/>
-					<div>
-						<div class="text-callout">{teamMember.name}</div>
+					<div class="text-center sm:text-left">
+						<div class="text-callout font-medium">{teamMember.name}</div>
 						<div class="text-caption text-emphasis-low">{teamMember.role}</div>
+						<div class="text-caption text-emphasis-low mt-1">Former operator, now connecting builders with capital</div>
 					</div>
-					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read more</Button>
+					<Button 
+						href="/about" 
+						variant="secondary" 
+						size="sm" 
+						class="ml-8 transition-all hover:scale-105"
+					>
+						Read our story
+					</Button>
 				</div>
+			</div>
+
+			<!-- Context hint -->
+			<div class="text-center">
+				<p class="text-body text-emphasis-medium max-w-2xl">
+					From sitting on both sides of the funding table to building the platform we wished existed—discover how we're transforming the $330B private equity market for technical founders and angel investors.
+				</p>
 			</div>
 		</div>
 	</div>

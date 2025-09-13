@@ -14,15 +14,30 @@
 	} = $props();
 </script>
 
-<header class="border-b border-gray-100 dark:border-gray-900" {...rest}>
-	<div class="text-title3 section-px section-py container mx-auto grid gap-16 gap-y-0">
-		<SectionHeader {title} {subtitle} size="lg" />
-		<div class="aspect-video overflow-clip rounded-xl bg-gray-100">
-			<img
-				class="h-full w-full object-cover"
-				src={imageSrc}
-				alt="Diverse group of people collaborating"
-			/>
+<header class="relative bg-gray-900 dark:bg-gray-950" {...rest}>
+	<div class="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-orange-900/20"></div>
+	<div class="relative container mx-auto section-px">
+		<!-- Hero Content -->
+		<div class="py-24 lg:py-32 grid gap-16 lg:grid-cols-2 lg:gap-24 items-center">
+			<div class="space-y-8">
+				<div class="space-y-4">
+					<h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
+						{title}
+					</h1>
+					<p class="text-xl lg:text-2xl text-gray-300 font-medium">
+						{subtitle}
+					</p>
+				</div>
+			</div>
+			
+			<!-- Hero Image -->
+			<div class="aspect-video overflow-hidden rounded-2xl bg-gray-800 border border-gray-700">
+				<img
+					class="h-full w-full object-cover"
+					src={imageSrc}
+					alt="Execution team collaborating in modern workspace"
+				/>
+			</div>
 		</div>
 	</div>
 </header>

@@ -11,94 +11,62 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Operator first",
+			description: "We understand operator networks from the inside because we are operators. This gives us unique insight into building infrastructure that actually works."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Signal over noise",
+			description: "High-quality, curated deal flow beats volume every time. We focus on connecting the right people at the right moment."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Build relationships, not spreadsheets",
+			description: "Technology should eliminate admin overhead so angels and founders can focus on what matters—building connections and great companies."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Fundraising without gatekeepers"
+	subtitle="Real access through real operators"
+	imageSrc="/generated/image-two-founders-collaborating-in-a-modern-w.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We saw too many high-potential founders struggling to raise money—not because they lacked talent, but because they weren't plugged into the right networks. And we saw angels wasting hours every week on Slack threads, spreadsheets, and scouting that went nowhere. We knew there was a better way.",
+		"We started connecting technical founders and operator angels through the networks we trusted. What started as a handful of introductions grew fast—so we built the infrastructure investors actually needed: curated access, streamlined deal reviews, and tools that reduce admin overhead by 80%.",
+		"Today, Execution gives angels consistent, high-signal deal flow from AI-native technical teams. Founders get access to capital without giving up control. Investors get to focus on what really matters—building relationships and backing companies early. We're just getting started."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Operators building infrastructure for modern angel investing."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Bob Deforce",
+			position: "Co-Founder",
+			bio: "Building the infrastructure that connects technical founders with the right investors.",
+			image: "/generated/image-a-young-business-executive-with-a-confid.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Jaime Vico van Berkel",
+			position: "Co-Founder",
+			bio: "Leveraging operator networks to streamline angel investing and deal sourcing.",
+			image: "/generated/image-a-tech-entrepreneur-with-a-thoughtful-ex.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to transform how you invest?"
+	subtitle="Join the operator network"
+	description="Stop wasting 80% of your time on admin work. Get curated deal flow from technical founders building AI startups, streamlined through exclusive operator networks. Angels get focused relationship-building. Founders get capital without losing control."
 />
